@@ -11,7 +11,14 @@ in stdenv.mkDerivation rec {
   pname   = "rehoboth-audioman";
   name    = "${pname}-${version}";
 
+  src = ./.;
   buildInputs = [
     py
   ];
+
+  buildPhase = ''
+    mkdocs build
+    mkdir -p $out
+    mv site $out/www
+  '';
 }

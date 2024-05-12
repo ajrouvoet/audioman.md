@@ -14,5 +14,14 @@
       };
 
       defaultPackage.x86_64-linux = self.packages.x86_64-linux.audioman;
+
+      pages = with pkgs; stdenv.mkDerivation {
+        name = "github-pages";
+        src = self.packages.x86_64-linux.audioman;
+        buildInputs = [];
+        buildPhase = ''
+          tar cvzf $out $src
+        '';
+      };
     };
 }

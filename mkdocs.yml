@@ -1,0 +1,19 @@
+site_name: Rehoboth Audio Manual
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: brown
+  features:
+    - navigation.indexes
+
+markdown_extensions:
+  - smarty # for ascii to unicode/html entities conversion of symbols (e.g. emdash ---)
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true

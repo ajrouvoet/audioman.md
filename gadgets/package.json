@@ -1,0 +1,20 @@
+{
+    "name": "audioman-gadgets",
+    "description": "Audio manual gadgets",
+    "version": "1.0.0",
+    "author": "Arjen Rouvoet <a.j.rouvoet@gmail.com>",
+    "license": "MIT",
+    "main": "src/main.js",
+    "scripts": {
+        "build": "node build.mjs"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "esbuild": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "@emotion/css": "latest",
+        "typescript": "latest",
+        "lodash": "latest"
+    }
+}

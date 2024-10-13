@@ -1,5 +1,9 @@
 # Bediening
 
+In dit hoofdstuk gaan we over de bediening van een aantal hoofdfuncties van het mengpaneel.
+Je kunt er doorheen lopen, of gebruik een van de [tutorials](./tutorials/index.md) om de belangrijkste
+mee te krijgen.
+
 ## Aan- en Uitzetten
 
 Zet het paneel aan *voordat* je de versterkers en speakers aanzet.
@@ -33,7 +37,6 @@ Het volume tussen kanalen kan flink verschillen, dus wees voorzichtig op je oren
 
 ## Mixes
 
-
 ??? tip "Channel Assignment in Mixes"
 
     De kanalen/ op het paneel staan vast, onafhankelijk van de mix die je
@@ -54,8 +57,52 @@ Het volume tussen kanalen kan flink verschillen, dus wees voorzichtig op je oren
     Door de assignment te wijzigen kun je kanelen toevoegen of verwijderen uit
     een mix.
 
-## Equalizer
-    
+## Preamp
+
+Dit zijn de instellingen voor de conversie van een input naar een digitaal signaal.
+
+- 48V: deze moet aan staan voor condensor mics en actieve DI boxen die stroom nodig hebben om te
+  kunnen werken. Als je deze aan zet op een mic. of input die geen stroom nodig heeft dan blaas
+  je 'm op, dus wees voorzichtig!
+- Gain: een belangrijke instelling voor inputs die bepaalt hoe hard het signaal binnenkomt
+  voor daaropvolgende digitale processing. Het inkomende signaal moet doorgaans tegen de 0dB aan zitten.
 
 ## Gate
 
+De input van een microfoon gaat eerst door de 'gate' (poort) om achtergrondgeluid van de voorgrond
+te scheiden. Dit is bijvoorbeeld belangrijk voor de hoofdmic. van de predikant, waardoor we
+geen geroezemoes uit de zaal willen versterken.
+
+De gate heeft een aantal instellingen:
+
+- **Threshold**: geeft aan bij welk input volume de poort open moet
+    gaan en geluid door moet laten.  Dit is veruit de belangrijkste instelling voor
+    gemiddeld gebruik,
+- Depth: hoeveel het volume wordt gereduceerd als de gate dicht is,
+- Attack: aantal ms dat het duurt voor de gate om helemaal open te gaan,
+- Release: aantal ms dat het duurt voor de gat om te sluiten,
+- Hold: hoe lang de gate open blijft nadat de input onder de threshold zakt.
+
+??? tip "Instellen van de hoofdmic. gate voor de dienst"
+
+    Als je de tijd hebt dan is het goed
+    om de treshold voor de dienst in te stellen wanneer de predikant met de kerkenraad staat te praten.
+    Wanneer de predikant praat dan moet de mic. geluid doorlaten. Er mogen geen delen van de zin wegvallen.
+    Als een kerkenraadslid of ouderling iets zegt dan moet dat doorgaans niet worden doorgelaten. 
+
+## Compressor
+
+De compressor drukt het volume bereik van een kanaal in elkaar. Dat wil zeggen dat je de pieken in volume
+dichter bij de dalen kunt brengen. Dit is bijv. belangrijk voor zang mics, waar een uithaal van een zanger
+soms de zaal in kan knallen, terwijl je ze niet kunt verstaan in zachte momenten.
+
+Belangrijke instellingen zijn:
+
+- Threshold: vanaf welk volume compressie moet plaatsvinden.
+- Ratio: hoe veel het volume moet worden ingedrukt vanaf de threshold. Bij 4:1 ratio wordt bij elke 4dB
+  input verhoging boven de threshold, de output met slechts 1dB luider. In andere woorden: een hoge
+  ratio zorg voor minder hoge pieken.
+- RMS/Peak: of de compressie moet worden toegepast op basis van een gemiddeld- (RMS) of piek-volume.
+
+## Equalizer
+    

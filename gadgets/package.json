@@ -15,6 +15,7 @@
         "react-dom": "latest",
         "@emotion/css": "latest",
         "typescript": "latest",
-        "lodash": "latest"
+        "lodash": "latest",
+	"function-plot": "latest"
     }
 }

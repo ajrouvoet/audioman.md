@@ -8,6 +8,7 @@ theme:
     - navigation.indexes
 
 markdown_extensions:
+  - attr_list
   - smarty # for ascii to unicode/html entities conversion of symbols (e.g. emdash ---)
   - toc:
       permalink: true

@@ -69,6 +69,9 @@ Dit zijn de instellingen voor de conversie van een input naar een digitaal signa
 
 ## Gate
 
+[Video Tutorial](https://youtu.be/obAiXwblnUk?si=_MgpW7EQrA5MpDFC&t=504){ .md-button .md-button--primary}
+
+
 De input van een microfoon gaat eerst door de 'gate' (poort) om achtergrondgeluid van de voorgrond
 te scheiden. Dit is bijvoorbeeld belangrijk voor de hoofdmic. van de predikant, waardoor we
 geen geroezemoes uit de zaal willen versterken.
@@ -91,6 +94,8 @@ De gate heeft een aantal instellingen:
     Als een kerkenraadslid of ouderling iets zegt dan moet dat doorgaans niet worden doorgelaten. 
 
 ## Compressor
+
+[Video Tutorial](https://www.youtube.com/watch?v=rT6OahUn3Qc&t=179s){ .md-button .md-button--primary}
 
 De compressor drukt het volume bereik van een kanaal in elkaar. Dat wil zeggen dat je de pieken in volume
 dichter bij de dalen kunt brengen. Dit is bijv. belangrijk voor zang mics, waar een uithaal van een zanger

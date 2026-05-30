@@ -117,4 +117,4 @@ Daarnaast gebruiken we het om de 'klankkleur' in te stellen voor zangers, instru
 - het 'modderige' 5-300 Hz gebied vormen.
 
 ??? tip "EQ Cheat Sheet"
-    Zie bijvoorbeeld [https://audiosorcerer.com/post/eq-cheat-sheet#7-khz-frequency-range](deze handleiding) voor een uitgebreidere uitleg van de verschillende toepassingen van EQ.
+    Zie bijvoorbeeld [deze handleiding](https://audiosorcerer.com/post/eq-cheat-sheet#7-khz-frequency-range) voor een uitgebreidere uitleg van de verschillende toepassingen van EQ.

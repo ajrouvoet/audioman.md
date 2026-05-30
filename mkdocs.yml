@@ -1,4 +1,6 @@
 site_name: Rehoboth Audio Manual
+site_author: Arjen Rouvoet
+
 theme:
   name: material
   palette:
@@ -6,6 +8,8 @@ theme:
     primary: brown
   features:
     - navigation.indexes
+
+docs_dir: docs/audio/
 
 markdown_extensions:
   - attr_list

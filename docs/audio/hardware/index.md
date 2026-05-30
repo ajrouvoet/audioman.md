@@ -11,7 +11,6 @@ en het aantal kanalen.
 
 !!! tip "Handleidingen"
 
-    - [Quick start](https://www.allen-heath.com/content/uploads/2023/06/SQ6_AP11349_Introduction_issue2.pdf) met overzicht knoppen.
     - [Complete handleiding](https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_5_0.pdf).
 
 ## Inputs
@@ -40,7 +39,7 @@ We gebruiken in een dienst de volgende output apparatuur:
 - Hal stereo versterking,
 - Kerkradio kastje,
 - Stream PC via de cameras, en
-- 2x optionele monitoren voor de band.
+- 2x monitoren voor de band.
 
 !!! tip "Outputs en Mixes"
 

@@ -21,7 +21,7 @@ Uitzetten is omgekeerd en heeft een extra stap:
 
 ## Meeluisteren met een Kanaal of Mix
 
-Het is moeilijk om tijdens een dienst de equalizer voor een kanaal goed
+Het is moeilijk om tijdens een dienst een kanaal goed
 in te stellen, omdat er meerdere kanalen in de mix zitten.
 Daarvoor kun je de koptelefoon aan het paneel gebruiken en de [PAFL](https://www.youtube.com/watch?v=dPxVjJUwRYA) knop
 van een kanaal indrukken om dat kanaal/die kanalen te isoleren.
@@ -33,7 +33,6 @@ van een kanaal indrukken om dat kanaal/die kanalen te isoleren.
     
 Je kunt met de knop onder de headphone-jack het volume van de koptelefoon wijzigen.
 Het volume tussen kanalen kan flink verschillen, dus wees voorzichtig op je oren.
-
 
 ## Mixes
 
@@ -67,14 +66,12 @@ Dit zijn de instellingen voor de conversie van een input naar een digitaal signa
 - Gain: een belangrijke instelling voor inputs die bepaalt hoe hard het signaal binnenkomt
   voor daaropvolgende digitale processing. Het inkomende signaal moet doorgaans tegen de 0dB aan zitten.
 
-## Gate
+## Gate: Volume-afhankelijke mute
 
 [Video Tutorial](https://youtu.be/obAiXwblnUk?si=_MgpW7EQrA5MpDFC&t=504){ .md-button .md-button--primary}
 
 
-De input van een microfoon gaat eerst door de 'gate' (poort) om achtergrondgeluid van de voorgrond
-te scheiden. Dit is bijvoorbeeld belangrijk voor de hoofdmic. van de predikant, waardoor we
-geen geroezemoes uit de zaal willen versterken.
+De input van een microfoon gaat eerst door de 'gate' (poort) om achtergrondgeluid van de voorgrond te scheiden. Dit is bijvoorbeeld belangrijk voor de hoofdmic. van de predikant om (a) geen zaalgeluiden op te pakken en (b) geen ademhaling te versterken.
 
 De gate heeft een aantal instellingen:
 
@@ -88,18 +85,13 @@ De gate heeft een aantal instellingen:
 
 ??? tip "Instellen van de hoofdmic. gate voor de dienst"
 
-    Als je de tijd hebt dan is het goed
-    om de treshold voor de dienst in te stellen wanneer de predikant met de kerkenraad staat te praten.
-    Wanneer de predikant praat dan moet de mic. geluid doorlaten. Er mogen geen delen van de zin wegvallen.
-    Als een kerkenraadslid of ouderling iets zegt dan moet dat doorgaans niet worden doorgelaten. 
+    Als je de tijd hebt dan is het goed om de treshold voor de dienst in te stellen wanneer de predikant met de kerkenraad staat te praten. Wanneer de predikant praat dan moet de mic. geluid doorlaten. Er mogen geen delen van de zin wegvallen. Als een kerkenraadslid of ouderling iets zegt dan moet dat doorgaans niet worden doorgelaten.
 
-## Compressor
+## Compressor: Volume-afhankelijke correctie
 
 [Video Tutorial](https://www.youtube.com/watch?v=rT6OahUn3Qc&t=179s){ .md-button .md-button--primary}
 
-De compressor drukt het volume bereik van een kanaal in elkaar. Dat wil zeggen dat je de pieken in volume
-dichter bij de dalen kunt brengen. Dit is bijv. belangrijk voor zang mics, waar een uithaal van een zanger
-soms de zaal in kan knallen, terwijl je ze niet kunt verstaan in zachte momenten.
+De compressor drukt het volume bereik van een kanaal in elkaar. Dat wil zeggen dat je de pieken in volume dichter bij de dalen kunt brengen. Dit is bijv. belangrijk voor zang mics, waar een uithaal van een zanger soms de zaal in kan knallen, terwijl je ze niet kunt verstaan in zachte momenten.
 
 Belangrijke instellingen zijn:
 
@@ -109,5 +101,20 @@ Belangrijke instellingen zijn:
   ratio zorg voor minder hoge pieken.
 - RMS/Peak: of de compressie moet worden toegepast op basis van een gemiddeld- (RMS) of piek-volume.
 
-## Equalizer
+## Parametric Equalizer: Frequentie-afhankelijke correctie
+
+![Parametric Equalizer on Allen & Heath SQ-5](/images/peq.webp)
+
+De equalizer past het volume aan voor verschillende frequentiegebieden. We gebruiken het in eerste plaats om storend geluid te voorkomen:
+
+- resonantie/zoomen (resonantie frequentie van de zaal op 50-300 Hz),
+- harde S (7 kHz),
+- storende bas.
+
+Daarnaast gebruiken we het om de 'klankkleur' in te stellen voor zangers, instrumenten en sprekers:
     
+- voor de helderheid van een stem kunnen we hoge frequentie boosten (4-10+ kHz),
+- het 'modderige' 5-300 Hz gebied vormen.
+
+??? tip "EQ Cheat Sheet"
+    Zie bijvoorbeeld [https://audiosorcerer.com/post/eq-cheat-sheet#7-khz-frequency-range](deze handleiding) voor een uitgebreidere uitleg van de verschillende toepassingen van EQ.

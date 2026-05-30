@@ -21,11 +21,12 @@ Het **doel** van mixen is:
 - het bereiken van de juiste **balans** tussen de kanalen in de mix,
 - het **master volume** van de mix juist instellen.
 
-Tijdens een dienst ligt de prioriteit op twee mixes:
+Tijdens een dienst ligt de prioriteit op de volgende mixes:
 
 | Label      | Publiek             |
 |:-----------|:--------------------|
-| LR         | Zaal, bijzaal, hal  |
+| LR         | Zaal                |
+| Hal        | Hal                 |
 | Uitzending | Youtube luisteraars |
 
 Je allereerste focus is altijd LR, en daarna de uitzending.
@@ -40,9 +41,10 @@ Hieronder beschrijven waar deze mixes uit zijn opgebouwd.
 
 #### Uitzending
 
-De uitzending bevat alle LR kanalen, en ook nog:
+De uitzending bevat alle LR kanalen, en daarbij nog:
 
-+ Zaal groep.
++ Zaal groep,
++ Orgel groep.
 
 ## Groepen
 
@@ -67,10 +69,10 @@ We hebben de volgende groepen met onderliggende kanalen:
 
 #### Band
 
-+ Cajon V/A.
-+ Fluit 1.
-+ Gitaar Mic.
-+ Gitaar Jack.
++ Cajon V/A,
++ Fluit 1,
++ Gitaar Mic,
++ Gitaar Jack,
 + Piano groep.
 
 #### Zang

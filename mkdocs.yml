@@ -1,5 +1,6 @@
 site_name: Rehoboth Audio Manual
 site_author: Arjen Rouvoet
+site_url: https://ajrouvoet.github.io/audioman.md/
 
 theme:
   name: material

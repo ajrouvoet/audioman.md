@@ -13,12 +13,12 @@ moet kennen voor deze niveaus.
 !!! warning "We zijn bezig deze informatie compleet te maken."
 
 - [x] Mengpaneel configuratie & bediening: 
-    + [x] [aan- en uitschakelen](/audio/40-bediening/#aan-en-uitzetten),
-    + [x] [standaard mixes](/audio/30-config/#mixes),
-    + [x] [standaard groepen](/audio/30-config/#groepen),
-    + [x] [equalizer](/audio/40-bediening/#equalizer),
-    + [x] [gate](/audio/40-bediening/#gate),
-    + [x] [faq (veelvoorkomende problemen tijdens de dienst)](/audio/90-faq)
+    + [x] [aan- en uitschakelen](../40-bediening/#aan-en-uitzetten),
+    + [x] [standaard mixes](../30-config/#mixes),
+    + [x] [standaard groepen](../30-config/#groepen),
+    + [x] [equalizer](../40-bediening/#equalizer),
+    + [x] [gate](../40-bediening/#gate),
+    + [x] [faq (veelvoorkomende problemen tijdens de dienst)](../90-faq)
 - [ ] Hardware voor de sprekers instellen.
 - [ ] Hardware voor de band instellen:
     + [ ] Piano,

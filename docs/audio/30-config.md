@@ -5,13 +5,13 @@ Dit hoofdstuk beschrijft de standaard configuratie van het mengpaneel.
 !!! tip "Tutorial"
 
     Mogelijk hoef je niet alles hiervan te weten!
-    Volg de [basis tutorial](/audio/01-tutorials/#basis) om de belangrijkste onderdelen
+    Volg de [basis tutorial](./tutorials/index.md#basis) om de belangrijkste onderdelen
     te vinden.
 
 ## Mixes
 
 Een mix is een verzameling van kanalen die samen naar een output gaan.
-In [het hardware outputs hoofdstuk](/audio/10-hardware/#outputs) zijn **vijf**
+In [het hardware outputs hoofdstuk](./hardware/index.md#outputs) zijn **vijf**
 outputs beschreven. Elk van die outputs heeft een corresponderende mix.
     
 

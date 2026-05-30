@@ -10,7 +10,7 @@
 
 !!! question "Er vallen stukjes weg van de spreker"
 
-    Waarschijnlijk is de [gate](/audio/40-bediening/#gate) van het input kanaal niet goed ingesteld.
+    Waarschijnlijk is de [gate](./40-bediening.md#gate) van het input kanaal niet goed ingesteld.
     Als de spreker zacht inzet of afsluit, dan schakelt de gate de microfoon te laat of te vroeg uit.
     
     Als er stukjes wegvallen aan het begin van zinnen:

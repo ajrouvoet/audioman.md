@@ -43,4 +43,4 @@ We gebruiken in een dienst de volgende output apparatuur:
 
 !!! tip "Outputs en Mixes"
 
-    Elke output wordt bediend door [een mix](/audio/30-config/#mixes) van het paneel.
+    Elke output wordt bediend door [een mix](../30-config.md#mixes) van het paneel.
